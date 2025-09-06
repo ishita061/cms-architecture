@@ -1,0 +1,27 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #f0f2f5;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+  margin-left: 240px; /* match sidebar width */
+  overflow-y: auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.plugin-wrapper {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.plugin-wrapper:hover {
+  transform: translateY(-2px);
+}
